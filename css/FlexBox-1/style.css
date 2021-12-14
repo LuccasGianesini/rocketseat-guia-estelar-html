@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+html {
+    font-family: sans-serif;
+}
+header {    padding: 4rem;
+    background: lightgray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.btn {
+    background-color: rgb(125, 107, 241);
+    padding: .8rem;
+    border-radius: 5px;
+    width: 30%;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+}
